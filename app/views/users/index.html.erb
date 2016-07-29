@@ -1,0 +1,23 @@
+<h1>Tech 1 on 1</h1>
+
+<div id="main_container">
+
+  <% @users.each do |user| %>
+    <div class="profile_details">
+
+      <div class="side_by_side">
+        <%= image_tag(user.picture, class:"pic_img") %>
+        <p><%= user.bio %></p>
+      </div>
+
+      <ul>
+        <li> <label>comments: </label>  <%= user.comments.count %></li>
+        <li> <label>followers: </label> <%= user.followers.count %></li>
+        <li><button type="button">Follow</button></li>
+      </ul>
+
+
+    </div>
+  <% end %>
+
+</div>

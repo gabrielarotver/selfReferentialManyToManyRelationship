@@ -1,0 +1,47 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pic_img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.side_by_side {
+  display: flex;
+  margin: 0, auto;
+}
+
+.side_by_side p {
+  margin-left: 1rem;
+}
+
+.profile_details {
+  width: 30%;
+  margin: 0.5rem auto;
+}
+
+#main_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin:0 auto;
+}
